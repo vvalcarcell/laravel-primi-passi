@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/pippo', function () {
+    return view('pippo', 
+        ["name" => "pippo",
+          "img" => "https://www.topolino.it/wp-content/uploads/2019/12/pippointera.png"
+        ]
+
+    );
 });
