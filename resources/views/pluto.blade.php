@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Pippo!</title>
+    <title>Hello Pluto!</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <style>
         *{
@@ -48,6 +48,7 @@
         <div class="info">Hi! My name is {{$name}}!</div> <br>
         <div class="back"><a href="http://127.0.0.1:8000">Torna alla Home</a></div class="back">
     </div>
+
     
 </body>
 </html>

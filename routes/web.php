@@ -25,3 +25,12 @@ Route::get('/pippo', function () {
 
     );
 });
+
+Route::get('/pluto', function () {
+    return view('pluto', 
+        ["name" => "pluto",
+          "img" => "https://www.topolino.it/wp-content/uploads/2019/12/plutointera.png"
+        ]
+
+    );
+});
