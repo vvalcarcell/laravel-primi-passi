@@ -71,8 +71,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="http://127.0.0.1:8000/pippo">Pippo</a>
-                    <a href="http://127.0.0.1:8000/pluto">Pluto</a>
+                    <a href="/pippo">Pippo</a>
+                    <a href="/pluto">Pluto</a>
                 </div>
             </div>
         </div>
