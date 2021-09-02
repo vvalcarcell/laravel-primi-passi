@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})-> name('home');
 
 Route::get('/pippo', function () {
     return view('pippo', 
@@ -24,7 +24,7 @@ Route::get('/pippo', function () {
         ]
 
     );
-});
+})-> name('pippo');
 
 Route::get('/pluto', function () {
     return view('pluto', 
@@ -33,4 +33,4 @@ Route::get('/pluto', function () {
         ]
 
     );
-});
+})-> name('pluto');

@@ -46,7 +46,7 @@
     <img src="{{$img}}" alt="">
     <div class="box">
         <div class="info">Hi! My name is {{$name}}!</div> <br>
-        <div class="back"><a href="\">Torna alla Home</a></div class="back">
+        <div class="back"><a href="{{route('home')}}">Torna alla Home</a></div class="back">
     </div>
     
 </body>

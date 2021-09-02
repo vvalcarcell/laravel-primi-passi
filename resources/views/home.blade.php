@@ -71,8 +71,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="/pippo">Pippo</a>
-                    <a href="/pluto">Pluto</a>
+                    <a href="{{route('pippo')}}">Pippo</a>
+                    <a href="{{route('pluto')}}">Pluto</a>
                 </div>
             </div>
         </div>
